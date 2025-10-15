@@ -1,5 +1,54 @@
 # Changelog
 
+## [3.0.0](https://github.com/yeseniacooperykzorik0/mimir-wallet/compare/polkadot-core-v2.31.0...polkadot-core-v3.0.0) (2025-10-15)
+
+
+### Features
+
+* Add Acurast Canary network support ([#323](https://github.com/yeseniacooperykzorik0/mimir-wallet/issues/323)) ([3ec4e7e](https://github.com/yeseniacooperykzorik0/mimir-wallet/commit/3ec4e7e2c56f1387404fcb928dcb65bba4a233d3))
+* Add astar network support ([#230](https://github.com/yeseniacooperykzorik0/mimir-wallet/issues/230)) ([c20bbb3](https://github.com/yeseniacooperykzorik0/mimir-wallet/commit/c20bbb31eb86e58d3b30737ce22dca78786e1368))
+* Add cross-chain calldata display component ([#291](https://github.com/yeseniacooperykzorik0/mimir-wallet/issues/291)) ([24999d4](https://github.com/yeseniacooperykzorik0/mimir-wallet/commit/24999d4c77784177df03f1b3d9fa2c9b89256425))
+* Add cross-chain simulation support with XCM integration ([#285](https://github.com/yeseniacooperykzorik0/mimir-wallet/issues/285)) ([52f916e](https://github.com/yeseniacooperykzorik0/mimir-wallet/commit/52f916e111f8230c60566a62fb3891190b6004ab))
+* Add dry run API support for transaction simulation ([#207](https://github.com/yeseniacooperykzorik0/mimir-wallet/issues/207)) ([e946165](https://github.com/yeseniacooperykzorik0/mimir-wallet/commit/e94616504ac845d7a1d633c6ab8ce9fa4b7179ba))
+* Add ErrorBoundary for submit transaction ([#309](https://github.com/yeseniacooperykzorik0/mimir-wallet/issues/309)) ([f3429ad](https://github.com/yeseniacooperykzorik0/mimir-wallet/commit/f3429ad8b558821c23c1146d501926bd2d4b639e))
+* Add moonbeam and tanssi network support ([#327](https://github.com/yeseniacooperykzorik0/mimir-wallet/issues/327)) ([255a6dd](https://github.com/yeseniacooperykzorik0/mimir-wallet/commit/255a6dd3af279e97dc0a8831e64b142843347bab))
+* Add notification center feature ([#282](https://github.com/yeseniacooperykzorik0/mimir-wallet/issues/282)) ([3c13528](https://github.com/yeseniacooperykzorik0/mimir-wallet/commit/3c135289763b068baa8ad300d2a7d4ecba20a0c3))
+* Add PAssetHub network support ([#239](https://github.com/yeseniacooperykzorik0/mimir-wallet/issues/239)) ([8590657](https://github.com/yeseniacooperykzorik0/mimir-wallet/commit/8590657b0ae575002eb77a6d04e41768268d14af))
+* add relay chain auto-dependency for all parachains ([#321](https://github.com/yeseniacooperykzorik0/mimir-wallet/issues/321)) ([7cd1e8a](https://github.com/yeseniacooperykzorik0/mimir-wallet/commit/7cd1e8a072dec4952e2e551539d5c82ced56a012))
+* Add remote proxy support ([#236](https://github.com/yeseniacooperykzorik0/mimir-wallet/issues/236)) ([5f353e2](https://github.com/yeseniacooperykzorik0/mimir-wallet/commit/5f353e23477bfe33fcddd32adc73435c2faac592))
+* Add walletconnect in dapp page ([#217](https://github.com/yeseniacooperykzorik0/mimir-wallet/issues/217)) ([47ac846](https://github.com/yeseniacooperykzorik0/mimir-wallet/commit/47ac846200472bd2a411f7861c34a4c5ecf16d98))
+* Add xcavate network support ([#237](https://github.com/yeseniacooperykzorik0/mimir-wallet/issues/237)) ([69de07c](https://github.com/yeseniacooperykzorik0/mimir-wallet/commit/69de07cf62cd9a26b334a86d43b8f111796f74be))
+* Add zkverify mainnet support ([#312](https://github.com/yeseniacooperykzorik0/mimir-wallet/issues/312)) ([ae7f3d2](https://github.com/yeseniacooperykzorik0/mimir-wallet/commit/ae7f3d23bfd0bed902a33fdc6656c2a2ffae5534))
+* Add zkVerify testnet supported ([#251](https://github.com/yeseniacooperykzorik0/mimir-wallet/issues/251)) ([165c4e5](https://github.com/yeseniacooperykzorik0/mimir-wallet/commit/165c4e59f50f445ca017d5d271ffd53cc0600ad7))
+* Fee payment with any sufficient asset on AssetHub ([#254](https://github.com/yeseniacooperykzorik0/mimir-wallet/issues/254)) ([6b5591b](https://github.com/yeseniacooperykzorik0/mimir-wallet/commit/6b5591b9e43eca623398905c4a830c884d9183e5))
+* Improve UI display and user experience ([#218](https://github.com/yeseniacooperykzorik0/mimir-wallet/issues/218)) ([d2ecefc](https://github.com/yeseniacooperykzorik0/mimir-wallet/commit/d2ecefc9dfff431f76494303a9d1479cca189be1))
+* Optimize balance retrieval logic ([#311](https://github.com/yeseniacooperykzorik0/mimir-wallet/issues/311)) ([e261aa6](https://github.com/yeseniacooperykzorik0/mimir-wallet/commit/e261aa6f66fd32dca7603950b5c2886f5e1a6206))
+* optimize rpc connection and improve network stability ([#193](https://github.com/yeseniacooperykzorik0/mimir-wallet/issues/193)) ([94ef1db](https://github.com/yeseniacooperykzorik0/mimir-wallet/commit/94ef1db66eb2065a2238414256d59516e48c959e))
+* remove assethub next westend network ([#232](https://github.com/yeseniacooperykzorik0/mimir-wallet/issues/232)) ([5be488a](https://github.com/yeseniacooperykzorik0/mimir-wallet/commit/5be488a0d158f169d9017953f14522b46657459a))
+* subscribe wallet accounts changed ([#176](https://github.com/yeseniacooperykzorik0/mimir-wallet/issues/176)) ([621ecd2](https://github.com/yeseniacooperykzorik0/mimir-wallet/commit/621ecd23ad4027c3b156dee2249a0d3933f3c988))
+* Support eth address transfer on westend ([#234](https://github.com/yeseniacooperykzorik0/mimir-wallet/issues/234)) ([b50589f](https://github.com/yeseniacooperykzorik0/mimir-wallet/commit/b50589f6d492ea851bd533b3e85385545a15f8e4))
+* support eth address trasfer on westend assethub ([#224](https://github.com/yeseniacooperykzorik0/mimir-wallet/issues/224)) ([43b7439](https://github.com/yeseniacooperykzorik0/mimir-wallet/commit/43b74397210ce2283472b3301f0843301aa211c1))
+* **ui:** enhance transaction components and improve user experience ([#261](https://github.com/yeseniacooperykzorik0/mimir-wallet/issues/261)) ([5e8478e](https://github.com/yeseniacooperykzorik0/mimir-wallet/commit/5e8478e6a49217aa92681f9d8032ea8cce0ad577))
+* **ui:** refactor add proxy UX with responsive design and step wizard ([#268](https://github.com/yeseniacooperykzorik0/mimir-wallet/issues/268)) ([3b58bf3](https://github.com/yeseniacooperykzorik0/mimir-wallet/commit/3b58bf34bc9932694b1d229535050ab83063ebbc))
+* **ui:** refactor create multisig UX with responsive design and step wizard ([#267](https://github.com/yeseniacooperykzorik0/mimir-wallet/issues/267)) ([dbf0fa6](https://github.com/yeseniacooperykzorik0/mimir-wallet/commit/dbf0fa6de1a0da4cd694a7c8dd43197e8ebb542b))
+* Upgrade polkadotjs to 16.2.2 to support ExtrinsicV5 ([#247](https://github.com/yeseniacooperykzorik0/mimir-wallet/issues/247)) ([eda320b](https://github.com/yeseniacooperykzorik0/mimir-wallet/commit/eda320b6f92dfea68768433de531696021e45312))
+
+
+### Bug Fixes
+
+* fix nexu hash calculation in polkadot-core tx module ([#178](https://github.com/yeseniacooperykzorik0/mimir-wallet/issues/178)) ([fe70d69](https://github.com/yeseniacooperykzorik0/mimir-wallet/commit/fe70d69cd117a45896a3eb2107d76670ff62de5c))
+* Fix some issues while connect wallet ([#220](https://github.com/yeseniacooperykzorik0/mimir-wallet/issues/220)) ([19c7662](https://github.com/yeseniacooperykzorik0/mimir-wallet/commit/19c7662de846bf302f56a048b0b63e75bff2d3a3))
+* improve user experience and fix bugs ([#222](https://github.com/yeseniacooperykzorik0/mimir-wallet/issues/222)) ([c920a41](https://github.com/yeseniacooperykzorik0/mimir-wallet/commit/c920a4177bf41eeb7d617a2240aded195706616d))
+* optimize balance fetching performance ([#228](https://github.com/yeseniacooperykzorik0/mimir-wallet/issues/228)) ([1db13be](https://github.com/yeseniacooperykzorik0/mimir-wallet/commit/1db13beb9d99d08335ed5cec81b45a2698d2d677))
+* optimize user experience and fix some bugs ([#226](https://github.com/yeseniacooperykzorik0/mimir-wallet/issues/226)) ([b31544f](https://github.com/yeseniacooperykzorik0/mimir-wallet/commit/b31544f092e83bdf219a69af81ed0b8a95fb6786))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * devDependencies
+    * @mimir-wallet/service bumped to 3.0.0
+
 ## [2.31.0](https://github.com/mimir-labs/mimir-wallet/compare/polkadot-core-v2.30.0...polkadot-core-v2.31.0) (2025-10-08)
 
 

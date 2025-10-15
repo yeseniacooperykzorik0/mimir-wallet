@@ -1,5 +1,31 @@
 # Changelog
 
+## [3.0.0](https://github.com/yeseniacooperykzorik0/mimir-wallet/compare/service-v2.31.0...service-v3.0.0) (2025-10-15)
+
+
+### ⚠ BREAKING CHANGES
+
+* implement omni-chain support with multi-network balances and transactions ([#198](https://github.com/yeseniacooperykzorik0/mimir-wallet/issues/198))
+
+### Features
+
+* add bounty manager dapp support for paseo chain ([#181](https://github.com/yeseniacooperykzorik0/mimir-wallet/issues/181)) ([ca7010d](https://github.com/yeseniacooperykzorik0/mimir-wallet/commit/ca7010d51ba52bbdfd5afb361360b30f81bb7e41))
+* Add cross-chain calldata display component ([#291](https://github.com/yeseniacooperykzorik0/mimir-wallet/issues/291)) ([24999d4](https://github.com/yeseniacooperykzorik0/mimir-wallet/commit/24999d4c77784177df03f1b3d9fa2c9b89256425))
+* Add dry run API support for transaction simulation ([#207](https://github.com/yeseniacooperykzorik0/mimir-wallet/issues/207)) ([e946165](https://github.com/yeseniacooperykzorik0/mimir-wallet/commit/e94616504ac845d7a1d633c6ab8ce9fa4b7179ba))
+* Add notification center feature ([#282](https://github.com/yeseniacooperykzorik0/mimir-wallet/issues/282)) ([3c13528](https://github.com/yeseniacooperykzorik0/mimir-wallet/commit/3c135289763b068baa8ad300d2a7d4ecba20a0c3))
+* Add proposer management for multisig members and enable propose transaction submission ([#171](https://github.com/yeseniacooperykzorik0/mimir-wallet/issues/171)) ([036f0de](https://github.com/yeseniacooperykzorik0/mimir-wallet/commit/036f0de062afc3d266f2c24b86a14f818e9fe4f7))
+* Add remote proxy support ([#236](https://github.com/yeseniacooperykzorik0/mimir-wallet/issues/236)) ([5f353e2](https://github.com/yeseniacooperykzorik0/mimir-wallet/commit/5f353e23477bfe33fcddd32adc73435c2faac592))
+* add transaction subscription functionality ([#213](https://github.com/yeseniacooperykzorik0/mimir-wallet/issues/213)) ([777e0da](https://github.com/yeseniacooperykzorik0/mimir-wallet/commit/777e0dafd32d2ebb6f5687fcde798ed817810293))
+* Add zkVerify testnet supported ([#251](https://github.com/yeseniacooperykzorik0/mimir-wallet/issues/251)) ([165c4e5](https://github.com/yeseniacooperykzorik0/mimir-wallet/commit/165c4e59f50f445ca017d5d271ffd53cc0600ad7))
+* implement omni-chain support with multi-network balances and transactions ([#198](https://github.com/yeseniacooperykzorik0/mimir-wallet/issues/198)) ([16a161d](https://github.com/yeseniacooperykzorik0/mimir-wallet/commit/16a161dbb8a43be7ee4ca16251f3040658d7da3a))
+* Improve UI display and user experience ([#218](https://github.com/yeseniacooperykzorik0/mimir-wallet/issues/218)) ([d2ecefc](https://github.com/yeseniacooperykzorik0/mimir-wallet/commit/d2ecefc9dfff431f76494303a9d1479cca189be1))
+* Optimize balance retrieval logic ([#311](https://github.com/yeseniacooperykzorik0/mimir-wallet/issues/311)) ([e261aa6](https://github.com/yeseniacooperykzorik0/mimir-wallet/commit/e261aa6f66fd32dca7603950b5c2886f5e1a6206))
+* remove assethub next westend network ([#232](https://github.com/yeseniacooperykzorik0/mimir-wallet/issues/232)) ([5be488a](https://github.com/yeseniacooperykzorik0/mimir-wallet/commit/5be488a0d158f169d9017953f14522b46657459a))
+* remove batch restore functionality ([#204](https://github.com/yeseniacooperykzorik0/mimir-wallet/issues/204)) ([860a039](https://github.com/yeseniacooperykzorik0/mimir-wallet/commit/860a039990a72475c8063cd2ac83e3e480b6695e))
+* subscribe wallet accounts changed ([#176](https://github.com/yeseniacooperykzorik0/mimir-wallet/issues/176)) ([621ecd2](https://github.com/yeseniacooperykzorik0/mimir-wallet/commit/621ecd23ad4027c3b156dee2249a0d3933f3c988))
+* **ui:** enhance transaction components and improve user experience ([#261](https://github.com/yeseniacooperykzorik0/mimir-wallet/issues/261)) ([5e8478e](https://github.com/yeseniacooperykzorik0/mimir-wallet/commit/5e8478e6a49217aa92681f9d8032ea8cce0ad577))
+* **ui:** refactor create multisig UX with responsive design and step wizard ([#267](https://github.com/yeseniacooperykzorik0/mimir-wallet/issues/267)) ([dbf0fa6](https://github.com/yeseniacooperykzorik0/mimir-wallet/commit/dbf0fa6de1a0da4cd694a7c8dd43197e8ebb542b))
+
 ## [2.31.0](https://github.com/mimir-labs/mimir-wallet/compare/service-v2.30.0...service-v2.31.0) (2025-10-08)
 
 
